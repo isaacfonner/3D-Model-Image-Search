@@ -9,16 +9,13 @@
         <header class="bg-red-500 text-white p-4">
             <div class="container mx-auto">
                 <h1 class="text-3xl font-bold">3D Model Image Search</h1>
-                <nav class="mt-4">
-                    <a href="#" class="mr-4 hover:text-gray-300">Search</a>
-                    <a href="#about" class="mr-4 hover:text-gray-300">About</a>
-                </nav>
+                
             </div>
         </header>
 
 
-        <!--<input type="file" id="imageInput" accept="image/*">
-        <button onclick="convertImage()">Search for 3D Model</button> -->
+        <input type="file" id="imageInput" accept="image/*">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 rounded" onclick="convertImage()">Search for 3D Model</button>
         
 
 
@@ -87,5 +84,14 @@
         });
         }
     </script>
+    <style>
+        button {
+            width: 98%;
+            margin-left: 1%;
+        }
+        input {
+            margin-bottom: 8px;
+        }
+    </style>
     </body>
 </html>
